@@ -20,6 +20,14 @@ body {
   font-family: sans-serif;
   height: 100%;
 }
+.spacing{
+  background: linear-gradient(#2133fa, white);
+  height: 25px;
+}
+.spacingmusic{
+  height: 25px;
+  background: linear-gradient(#2133fa, #ffba00);
+}
 .wrapper {
   min-height: 93%;
   position: relative;
@@ -80,11 +88,7 @@ nav ul li a {
 }
 
 p.startmusic {
-  background: linear-gradient(#2133fa, #ffba00);
-}
-p.startabout {
-  background: white;
-
+  background-color: #ffba00;
 }
 
 p.clipsheader {
@@ -178,7 +182,7 @@ footer p {
 }
 
 a img.hovshadow:hover{
-  box-shadow: inset 0px 0px 300px 0 #000000;
+  box-shadow: inset 0px 0px 75px 0 #000000;
   transition-duration: 0.4s;
 }
 
