@@ -1,0 +1,105 @@
+h1.namelinked{
+    display: flex;
+    justify-content: center;
+}
+.namelinked a{
+    color:white;
+    text-decoration: none;
+}
+.mainnav{
+    width:100%;
+    background-color: #2133fa;
+}
+.nav{
+    display: flex;
+    justify-content: center;
+}
+.nav ul{
+    display: flex;
+    justify-content: center;
+    color:white;
+    list-style-type: none;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+.nav ul li{
+    font-size: 2em;
+    color: rgb(255, 255, 255);
+    border-radius: 0.25em;
+    border: 0.1em solid white;
+}
+.nav ul li a{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-flow: row wrap;
+    color: white;
+    text-decoration: none;
+}
+li.currentpage{
+    display: flex;
+}
+.basefooter{
+    background: linear-gradient(to right, #007400, white, #f20000);
+}
+
+.basefooter p{
+    display: flex;
+    justify-content: center;
+    margin: 0;
+}
+.basefooter a{
+    text-decoration: none;
+    color: black;
+}
+.description{
+    max-width: 30em;
+    margin-right: auto;
+    margin-left: auto;
+}
+.circlebuttons {
+    background: white;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
+.circlebuttons figure {
+    margin: auto;
+    width: 300px;
+    padding: 1em;
+  }
+.circlebuttons figure img {
+    width: 300px;
+    height: 300px;
+    background: white;
+    border-radius: 50%;
+    box-shadow: black 2px 2px 10px;
+    margin-top: 3em;
+  }
+.circlebuttons figure figcaption a {
+    text-decoration: none;
+    color: black;
+    font-size: 25px;
+  }
+.circlebuttons figure figcaption {
+    text-align: center;
+  }
+img{
+      box-shadow: black 0.5em 0.5em 1em;
+      margin: 1em;
+  }
+.clip{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 0;
+    margin-top: 1em;
+}
+.des{
+    display: flex;
+    justify-content: center;
+    margin-top: 0%;
+}
+video{
+    margin-bottom: 0rem;
+    padding: 0;
+}
